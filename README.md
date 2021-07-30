@@ -2,6 +2,14 @@
 
 Projeto utiliza o framework Laravel 8.
 
+Pode ser necessario:
+
+```sh
+PHP 8
+composer
+NodeJs
+Npm
+``` 
 ## Inicar o projeto
 
 Para iniciar o projeto, seguir o passo a passo da inicialização do Laravel.
@@ -29,3 +37,15 @@ Após as migrates. Inicializar o serviço de server.
 php artisan serve
 ```
 
+Caso sejá necessarios, o bootstrap deve ser instalado. 
+Executar os comandos abaixo.
+
+```sh
+composer require laravel/ui
+
+php artisan ui bootstrap
+
+php artisan ui bootstrap --auth
+
+npm install && npm run dev
+```
